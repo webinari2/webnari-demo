@@ -1,0 +1,13 @@
+<div class="col-lg-10 mx-auto">
+  <div class="card shadow">
+    <div class="card-header">
+      <h4 class="card-title">Booking Confirmation</h4>
+    </div>
+    <div class="card-body">
+      <h1>Greetings from Webinari</h1>
+      <h3>Hello <%= @customer.full_name %></h3>
+      <p class="lead"> Your booking for <strong><%= @workshop.name %> has been confirmed. Please find the booking details below:</strong></p>
+      <%= @svg.html_safe %>
+    </div>
+  </div>
+</div>
